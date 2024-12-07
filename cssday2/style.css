@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+div{
+    height:300px;
+    width:300px;
+    background-color: burlywood;
+    padding-left: 30px;
+    margin:50px 100px;
+    border: 2px dotted red;
+    box-sizing: border-box;
+    /* padding:20px 100px 40px 30px; */
+}

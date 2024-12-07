@@ -1,0 +1,58 @@
+div{
+    height:200px;
+    width:300px;
+    background-color: darkgrey;
+
+    position: relative;
+    top:100px;
+    z-index: 0;
+    /* left:200px;
+    bottom:100px;
+    right:200px; */
+}
+.div1 p{
+    background-color: rgb(5, 6, 6);
+    position: sticky;
+    top:50px;
+}
+.div1{
+    background-color: rgb(91, 188, 188);
+    height:700px;
+    color:white;
+
+}
+.nav{
+    background-color: black;
+    color: white;
+    position: fixed;
+    top:0;
+    width:100%;
+    z-index:1;
+    height:20px;
+}
+
+.parent{
+    position: relative;
+    background-color: bisque;
+    height:500px;
+}
+
+.child{
+    position: absolute;
+    background-color: rgb(73, 54, 30);
+    height:100px;
+    top:0px;
+}
+
+.parent p{
+    position: absolute;
+    top:130px;
+    left:100px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    width:800px;
+}
+img{
+    height:500px;
+}

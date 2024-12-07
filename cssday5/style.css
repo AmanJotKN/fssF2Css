@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+.navbar{
+    background-color: black;
+    height:45px;
+    color: aliceblue;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    gap:50px;
+    justify-content:flex-end;
+    align-items: center;
+}
+.navbar p:hover{
+    cursor: pointer;
+    color:pink;
+}
+
+.card{
+
+    padding:20px;
+    flex-direction: column;
+    display: flex;
+    width:240px;
+    gap:10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    justify-content: center;
+    text-align: center;
+}
+.products{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#heart{
+    visibility: hidden;
+}
+.card img{
+    transition:all 2s ease-in-out;
+}
+.card img:hover{
+    transform: scale(2);
+}
+.card:hover #heart{
+visibility: visible;
+}

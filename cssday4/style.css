@@ -1,0 +1,51 @@
+/* .div1 p{
+    width:700px;
+    background-color: #396b58;
+}
+.div1{
+    background-color: bisque;
+}
+a{
+    display: inline-block;
+    background-color: aquamarine;
+    width:400px;
+}
+p{
+    display: inline;
+}
+input[type="text"]:focus{
+    border:20px solid red;
+    background-color: aqua;
+} */
+ /* a{
+    background-color: black;
+ }
+ .div1{
+    background-color: aqua !important;
+    transform: rotateY(70deg);
+ }
+ #div1id{
+    background-color: brown;
+   
+ }
+ div{
+    height:100px;
+    width:100px;
+    background-color: bisque;
+    transform: skew(20deg);
+ } */
+
+ div{
+    transition: all 4s ease-in;
+    transition-delay: 3s;
+    height:200px;
+    width:200px;
+
+ }
+ div:hover{
+transform: scale(2);
+color:brown;
+font-size: 40px;
+
+
+ }
